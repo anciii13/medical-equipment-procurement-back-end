@@ -31,16 +31,16 @@ The proposed architecture meets the requirements for scalability and high availa
 
 Scalability is crucial for maintaining performance and reliability under variable and increasing loads, ensuring that the system can grow and adapt to user and business needs.
 
-**1. Data Partitioning Strategy:**
-  - *Lazy Loading:* Use fetch = FetchType.LAZY in ORM to defer data loading until needed, improving performance and managing large datasets efficiently.
+**1. Data partitioning strategy:**
+  - *Lazy loading:* Use fetch = FetchType.LAZY in ORM to defer data loading until needed, improving performance and managing large datasets efficiently.
 
-**2.Database Replication and Fault Tolerance:**
-  - *Master-Slave Replication*: Implement a master-slave architecture where the master handles writes and slaves handle reads, enhancing fault tolerance and high availability.
+**2.Database replication and fault tolerance:**
+  - *Master-Slave replication*: Implement a master-slave architecture where the master handles writes and slaves handle reads, enhancing fault tolerance and high availability.
 
-**3. Load Balancer Strategy:**
+**3. Load balancer strategy:**
   - *Weighted Round Robin:* Use a load balancer with a Weighted Round Robin algorithm to distribute requests based on server capacity, ensuring balanced load and preventing server overload.
 
-**4. Monitoring Strategy:**
+**4. Monitoring strategy:**
   - *Prometheus:* Collect and store application metrics using Prometheus for robust performance monitoring and alerting.
   - *Grafana:* Visualize Prometheus metrics with Grafana to analyze performance trends and make data-driven decisions.
 

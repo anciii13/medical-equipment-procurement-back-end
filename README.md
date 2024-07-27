@@ -38,7 +38,7 @@ Scalability is crucial for maintaining performance and reliability under variabl
   - *Master-Slave replication*: Implement a master-slave architecture where the master handles writes and slaves handle reads, enhancing fault tolerance and high availability.
 
 **3. Load balancer strategy:**
-  - *Weighted Round Robin:* Use a load balancer with a Weighted Round Robin algorithm to distribute requests based on server capacity, ensuring balanced load and preventing server overload.
+  - *Weighted round robin:* Use a load balancer with a Weighted Round Robin algorithm to distribute requests based on server capacity, ensuring balanced load and preventing server overload.
 
 **4. Monitoring strategy:**
   - *Prometheus:* Collect and store application metrics using Prometheus for robust performance monitoring and alerting.
